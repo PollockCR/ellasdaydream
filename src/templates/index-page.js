@@ -30,6 +30,7 @@ export const pageQuery = graphql`
 						}
 					}
 				}
+				ctaHeading
 				cta {
 					ctaText
 					ctaLink
