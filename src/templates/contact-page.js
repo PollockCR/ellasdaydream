@@ -77,7 +77,8 @@ const Contact = ({ data }) => {
 							Message<textarea name="message" rows="20"></textarea>
 						</label>
 					</p>
-          <p>Images can be uploaded individually or together in a compressed file.</p>
+          <p>Please share links to images in the message field.</p>
+          {/* <p>Images can be uploaded individually or together in a compressed file.</p>
 					<p>
 						<label>
 							Image 1
@@ -110,7 +111,7 @@ const Contact = ({ data }) => {
 						<label>
 							Image 10<input alt="image upload" type="file" name="image10" />
 						</label>
-					</p>
+					</p> */}
 					<p className="text-align-right">
 						<button className="button" type="submit">
 							Send Message{" "}

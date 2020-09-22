@@ -3,7 +3,14 @@ import { RiHeart2Line } from "react-icons/ri";
 
 const Footer = () => (
 	<footer className="site-footer">
-    <div class="fb-comments" data-href="https://ellasdaydream.com" data-numposts="5" data-width=""></div>
+		<div className="mb-3">
+			<div
+				class="fb-comments"
+				data-href="https://ellasdaydream.com"
+				data-numposts="5"
+				data-width=""
+			></div>
+		</div>
 		<div className="container">
 			<p>
 				"To know Ella was to love her." Made with{" "}
