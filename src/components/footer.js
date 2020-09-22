@@ -37,7 +37,7 @@ const Footer = () => (
 				</a>
 			</p>
 		</div>
-    
+    <div class="fb-comments" data-href="https://ellasdaydream.com" data-numposts="5" data-width=""></div>
 	</footer>
 );
 
