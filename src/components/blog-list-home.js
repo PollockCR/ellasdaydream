@@ -1,16 +1,16 @@
 import React from "react"
 import { Link, StaticQuery, graphql } from "gatsby"
-import { RiArrowDownLine, RiArrowRightSLine } from "react-icons/ri"
+import { RiArrowUpLine, RiArrowRightSLine } from "react-icons/ri"
 
 import PostCard from "./post-card"
 
 const PostMaker = ({ data }) => (
   <section className="home-posts">
-    <h2>Latest in <strong>Blog</strong> <span class="icon -right"><RiArrowDownLine/></span></h2>
+    <h2>Latest Posts <span class="icon -right"><RiArrowUpLine/></span></h2>
     <div className="grids col-1 sm-2 lg-3">
       {data}
     </div>
-    <Link className="button" to="/blog">See more<span class="icon -right"><RiArrowRightSLine/></span></Link>
+    <Link className="button" to="/posts">See more<span class="icon -right"><RiArrowRightSLine/></span></Link>
   </section>
 )
 
@@ -20,7 +20,7 @@ export default function BlogListHome() {
       query={graphql`
         query {
           allMarkdownRemark(
-            sort: { order: DESC, fields: [frontmatter___date] }
+            sort: { order: ASC, fields: [frontmatter___date] }
             filter: { frontmatter: { template: { eq: "blog-post" } } }
             limit: 6
           ) {

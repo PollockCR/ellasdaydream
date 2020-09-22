@@ -1,8 +1,6 @@
 ---
 template: contact-page
-slug: /contact
-title: Get in touch
+slug: /share
+title: Share a memory
 ---
-Got a burning question regarding **JAMstack**, Need a new **Website**, or just anything in general. We are happy to talk.
-
-Just send us a message using the form below or you can send us a DM on [Twitter](https://twitter.com/stackrole)
+Thank you to everyone who has ever been involved in Ella's life. We will never stop missing her, we will never forget her joy, and we will never stop loving her. Ever. Please feel free to share memories and photos here. Your submission will be added as a post.

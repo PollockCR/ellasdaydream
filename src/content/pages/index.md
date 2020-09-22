@@ -3,10 +3,14 @@ template: index-page
 slug: /
 title: Ella's Daydream
 tagline: In loving memory of Ella Hamrick
-featuredImage: /assets/ella-hamrick.jpg
+featuredImage: /assets/ella-hamrick-unicorn.jpg
+ctaHeading: Share your memories
 cta:
-  ctaText: Share your memories
-  ctaLink: /contact
+  ctaText: As a post
+  ctaLink: /share
+cta2:
+  ctaText: On Facebook
+  ctaLink: https://www.facebook.com/rachelhamrickphotography/posts/10223458266230013
 ---
 "Our beautiful Ella died unexpectedly this weekend. We have no words to describe this unimaginable loss. To know Ella was to love her. Being her mother and her father was privilege and a joy. Thank you to everyone who has ever been involved in her life in any way and loved her. We will never stop missing her, we will never forget her joy, and we will never stop loving her. Ever.
 

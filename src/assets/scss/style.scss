@@ -249,6 +249,7 @@ article img {
 .blog-post {
 	.featured-image {
 		min-height: 50vh;
+		max-height: 100vh;
 		border-radius: 12px;
 	}
 }
@@ -264,13 +265,14 @@ article img {
 	border-radius: 12px;
 	text-decoration: none;
 	appearance: none;
-	border: none;
+	border: 1px solid transparent;
 	font-size: inherit;
 	line-height: 1;
 	transition: background .3s linear;
 	&:hover {
 		background-color: var(--button-color);
 		color: var( --button-alternate-color);
+		border: 1px solid var(--button-alternate-color);
 	}
 	&.-outline {
 		color: var(--primary-color);
@@ -280,9 +282,6 @@ article img {
 			box-shadow: 0 0 1px rgba(0,0,0,0.8);
 			background: #f2f2f2;
 		}
-	}
-	& + .button {
-		margin-left: 20px;
 	}
 	.icon {
 		display: inline-flex;
@@ -336,9 +335,6 @@ article img {
 		&:focus {
 			border-color: var(--input-focus-border);
 		}
-	}
-	textarea {
-		min-height: 200px;
 	}
 }
 .site-footer {

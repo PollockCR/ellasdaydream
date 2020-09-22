@@ -9,7 +9,7 @@ backend:
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
 # Uncomment local_backend when you need to develop in your local
-#local_backend: true # run npx netlify-cms-proxy-server for local testing
+local_backend: true # run npx netlify-cms-proxy-server for local testing
 
 media_folder: "static/assets" 
 public_folder: "/assets" 
@@ -19,7 +19,7 @@ collections:
     label: 'Posts' # Used in the UI
     label_singular: 'Post' # Used in the UI, ie: "New Post"
     description: >
-      Create awesome content here.
+      Share memories here.
     folder: 'src/content/posts'
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     summary: '{{title}} — {{year}}/{{month}}/{{day}}'
@@ -44,8 +44,19 @@ collections:
           required: false,
           tagname: ''
         }
-
       - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
+      - label: "Call to Action"
+        name: "cta"
+        widget: "object"
+        fields: 
+          - name: "ctaText"
+            label: "CTA text"
+            widget: "string"
+            required: false
+          - name: "ctaLink"
+            label: "CTA Link"
+            widget: "string"
+            required: false
   - label: "Pages"
     name: "pages"
     files:
@@ -59,8 +70,19 @@ collections:
         - {label: "Tagline", name: "tagline", widget: "string"}
         - {label: "Featured Image", name: "featuredImage", widget: "image"}
         - {label: "Body", name: "body", widget: "markdown"}
-        - label: "CTA"
+        - {label: "Call to Action Heading", name: "ctaHeading", widget: "string"}
+        - label: "Call to Action 1"
           name: "cta"
+          widget: "object"
+          fields: 
+            - name: "ctaText"
+              label: "CTA text"
+              widget: "string"
+            - name: "ctaLink"
+              label: "CTA Link"
+              widget: "string"
+        - label: "Call to Action 2"
+          name: "cta2"
           widget: "object"
           fields: 
             - name: "ctaText"

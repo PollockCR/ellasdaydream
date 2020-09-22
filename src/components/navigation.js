@@ -8,16 +8,12 @@ const MenuItems = [
     title: "Home"
   },
   {
-    path: "/art",
-    title: "Art"
+    path: "/posts",
+    title: "Posts"
   },
   {
-    path: "/love",
-    title: "Love"
-  },
-  {
-    path: "/contact",
-    title: "Contact"
+    path: "/share",
+    title: "Share"
   },
 ]
 
