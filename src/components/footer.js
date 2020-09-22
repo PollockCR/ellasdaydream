@@ -3,6 +3,7 @@ import { RiHeart2Line } from "react-icons/ri";
 
 const Footer = () => (
 	<footer className="site-footer">
+    <div class="fb-comments" data-href="https://ellasdaydream.com" data-numposts="5" data-width=""></div>
 		<div className="container">
 			<p>
 				"To know Ella was to love her." Made with{" "}
@@ -37,7 +38,6 @@ const Footer = () => (
 				</a>
 			</p>
 		</div>
-    <div class="fb-comments" data-href="https://ellasdaydream.com" data-numposts="5" data-width=""></div>
 	</footer>
 );
 
