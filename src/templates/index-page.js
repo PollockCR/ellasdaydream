@@ -61,7 +61,7 @@ const HomePage = ({ data }) => {
 						className="description"
 						dangerouslySetInnerHTML={{ __html: html }}
 					/>
-					<h2 class="cta-title">{frontmatter.ctaHeading}</h2>
+					<h2 className="cta-title">{frontmatter.ctaHeading}</h2>
 					<p>
 						<Link to={frontmatter.cta.ctaLink} className="button mr-3 mb-3">
 							{frontmatter.cta.ctaText}
