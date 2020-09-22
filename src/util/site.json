@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Foundation",
+    "title": "Ella's Daydream",
     "titleTemplate": "%s",
-    "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole",
-    "siteUrl": "https://foundation.stackrole.com",
-    "image": "/assets/stackrole.png",
-    "twitterUsername": "@stackrole"
+    "description": "In loving memory of Ella Hamrick. To know Ella was to love her. We will never stop missing her, we will never forget her joy, and we will never stop loving her.",
+    "siteUrl": "https://ellasdaydream.com",
+    "image": "/assets/ella-hamrick.jpg",
+    "twitterUsername": "@ellasdaydream"
   },
   "ga": "UA-XXXXXXXXX-X"
 }
