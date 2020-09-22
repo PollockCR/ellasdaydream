@@ -13,6 +13,11 @@ cta:
 
 Hold your loved ones a little bit tighter and a little bit longer tonight.
 
-Please feel free to share memories and photos here"
+Please feel free to share memories and photos [here](https://www.facebook.com/rachelhamrickphotography/posts/10223458266230013)"
 
 *-- Rachel Moore Hamrick, Matty Hamrick, & Eva Hamrick*
+
+
+## Comments
+
+![Facebook comments](/assets/ellas-family-comments-1.png)
