@@ -37,15 +37,7 @@ const Footer = () => (
 				</a>
 			</p>
 		</div>
-    <div class="fb-comments" data-href="https://ellasdaydream.com" data-numposts="5" data-width=""></div>
-		<div id="fb-root"></div>
-		<script
-			async
-			defer
-			crossorigin="anonymous"
-			src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0"
-			nonce="GdVocdDv"
-		></script>
+    
 	</footer>
 );
 
