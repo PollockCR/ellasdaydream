@@ -2,13 +2,17 @@
   text-align: right;
 }
 
+.font-size-sm {
+  font-size: var(--font-size-small);
+}
+
 .icon {
   display: inline-block;
   line-height: inherit;
   vertical-align: middle;
   align-items: center;
   &.-love {
-    color: red;
+    color: var(--pink-dark);
   }
 }
 

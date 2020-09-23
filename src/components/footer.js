@@ -6,7 +6,7 @@ import { IoLogoInstagram } from "react-icons/io";
 
 const Footer = () => (
 	<footer className="site-footer">
-		<div className="mb-5p position-relative">
+		<div className="mb-5p position-relative site-footer-fb">
 			<div
 				class="fb-comments"
 				data-href="https://ellasdaydream.com"
@@ -33,7 +33,7 @@ const Footer = () => (
 					<span className="icon -love">
 						<RiHeart2Line />
 					</span>{" "}
-					"To know Ella was to love her."{" "}
+					"To know Ella was to love her"{" "}
 					<span className="icon -love">
 						<RiHeart2Line />
 					</span>
@@ -44,21 +44,40 @@ const Footer = () => (
 						target="_blank"
 						rel="noreferrer"
 					>
-						<IoLogoInstagram />
-						@ellasdaydream
-					</a>{" "}
-					|{" "}
+						<IoLogoInstagram /> @ellasdaydream
+					</a>
+				</p>
+				<p>
 					<a
 						href="https://www.instagram.com/_ellayay/"
 						target="_blank"
 						rel="noreferrer"
 					>
-						<IoLogoInstagram />
-						@_ellayay
+						<IoLogoInstagram /> @_ellayay
 					</a>
 				</p>
 				<p>
-					<Link to="/contact">Create Post</Link>
+					<Link to="/posts">View Posts</Link>
+				</p>
+				<p>
+					<Link to="/share">Create Post</Link>
+				</p>
+				<p className="font-size-sm">
+					<a
+						href="https://catherinepollock.com/privacy-policy"
+						target="_blank"
+						rel="noreferrer"
+					>
+						Privacy Policy
+					</a>{" "}
+					~{" "}
+					<a
+						href="https://catherinepollock.com/terms-of-service"
+						target="_blank"
+						rel="noreferrer"
+					>
+						Terms and Conditions
+					</a>
 				</p>
 			</div>
 		</div>
