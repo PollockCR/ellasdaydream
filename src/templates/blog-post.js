@@ -96,7 +96,7 @@ const Post = ({ data, pageContext }) => {
 				{frontmatter.cta &&
 				frontmatter.cta.ctaLink &&
 				frontmatter.cta.ctaText ? (
-					<section className="blog-post-content">
+					<section className="blog-post-content text-align-center">
 						<a
 							href={frontmatter.cta.ctaLink}
 							target="_blank"

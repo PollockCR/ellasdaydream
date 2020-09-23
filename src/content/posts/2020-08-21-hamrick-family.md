@@ -15,9 +15,10 @@ Hold your loved ones a little bit tighter and a little bit longer tonight.
 
 Please feel free to share memories and photos [here](https://www.facebook.com/rachelhamrickphotography/posts/10223458266230013)"
 
-*-- Rachel, Matt, Eva & Sophie
+*-- Rachel, Matt, Eva & Sophie*
 
 
 ## Comments
 
-![Facebook comments](/assets/ellas-family-comments-1.png)
+![Facebook comments 1](/assets/ellas-family-comments-1.png)
+![Facebook comments 2](/assets/ellas-family-comments-2.png)
