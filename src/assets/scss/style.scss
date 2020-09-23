@@ -464,8 +464,11 @@ article img {
     .footer-content {
         background-color: rgba(255,255,255,0.8);
         padding: 20% 10%;
-        width: 120%;
         border-radius: 12px;
+        width: max-content;
+        @media (max-width: $breakpoint-md) {
+            width: unset;
+        }
     }
 
     // p {
@@ -499,6 +502,8 @@ article img {
             color: var(--catdog);
         }
     }
+
+
 }
 
 .pagination {

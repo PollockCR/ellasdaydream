@@ -4,6 +4,7 @@ slug: /
 title: Ella's Daydream
 tagline: In loving memory of Ella Hamrick
 featuredImage: /assets/ella-hamrick-unicorn.jpg
+date: 2020-09-19T00:00:00.000Z
 ctaHeading: Share your memories
 cta:
   ctaText: As a post
