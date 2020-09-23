@@ -4,16 +4,12 @@ import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 
 const MenuItems = [
   {
-    path: "/",
-    title: "Home"
-  },
-  {
     path: "/posts",
-    title: "Posts"
+    title: "posts"
   },
   {
     path: "/share",
-    title: "Share"
+    title: "share memories"
   },
 ]
 
@@ -40,11 +36,11 @@ class Navigation extends React.Component {
     )
     return (
       <nav className="site-navigation">
-        <button onClick={this.handleToggleClick} className={"menu-trigger" + (this.state.showMenu ? " is-active" : "")}>
+        <button onClick={this.handleToggleClick} aria-label="navigation" className={"menu-trigger" + (this.state.showMenu ? " is-active" : "")}>
           <div className="icon-menu-line"><RiMenu3Line/></div>
           <div className="icon-menu-close"><RiCloseLine/></div>
         </button>
-        <ul>
+        <ul className="menu-items">
           {listMenuItems}
         </ul>
       </nav>

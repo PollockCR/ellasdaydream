@@ -1,6 +1,8 @@
 import React from "react";
+import { Link } from "gatsby";
 import { RiHeart2Line } from "react-icons/ri";
 import { FaCat, FaDog } from "react-icons/fa";
+import { IoLogoInstagram } from "react-icons/io";
 
 const Footer = () => (
 	<footer className="site-footer">
@@ -19,6 +21,7 @@ const Footer = () => (
 					target="_blank"
 					rel="noreferrer"
 					className="catdog-link"
+					title="catdog"
 				>
 					<FaCat />
 					<FaDog />
@@ -41,7 +44,8 @@ const Footer = () => (
 						target="_blank"
 						rel="noreferrer"
 					>
-						Ella's Daydream Instagram
+						<IoLogoInstagram />
+						@ellasdaydream
 					</a>{" "}
 					|{" "}
 					<a
@@ -49,8 +53,12 @@ const Footer = () => (
 						target="_blank"
 						rel="noreferrer"
 					>
-						Ella's Personal Instagram
+						<IoLogoInstagram />
+						@_ellayay
 					</a>
+				</p>
+				<p>
+					<Link to="/contact">Create Post</Link>
 				</p>
 			</div>
 		</div>
