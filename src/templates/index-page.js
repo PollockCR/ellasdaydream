@@ -53,7 +53,7 @@ const HomePage = ({ data }) => {
 	return (
 		<Layout>
 			<SEO />
-			<div className="pt-5p">
+			<div className="">
 				<div className="home-banner grids col-1 sm-2">
 					<div>
 						<h1 className="title">{frontmatter.title}</h1>
