@@ -86,7 +86,7 @@ const Post = ({ data, pageContext }) => {
 							objectPosition="50% 50%"
 							alt={frontmatter.title + " - Featured image"}
 							className="featured-image"
-							style={{ maxHeight: "100vh" }}
+							style={{ maxHeight: "100vh", objectFit: "contain", }}
 						/>
 					) : (
 						""
