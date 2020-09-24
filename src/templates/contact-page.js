@@ -50,14 +50,20 @@ const Contact = ({ data }) => {
 					<input type="hidden" name="form-name" value="contact" />
 					<p>
 						<label>
-							Name
-							<input type="text" name="name" />
+							Name *
+							<input type="text" name="name" required/>
 						</label>
 					</p>
 					<p>
 						<label>
 							Email
 							<input type="email" name="email" />
+						</label>
+					</p>
+					<p>
+						<label>
+							Relation to Ella
+							<input type="text" name="relation" />
 						</label>
 					</p>
 					<p>
@@ -74,10 +80,16 @@ const Contact = ({ data }) => {
 					</p>
 					<p>
 						<label>
-							Message<textarea name="message" rows="20"></textarea>
+							Post Link
+							<input type="url" name="url" />
 						</label>
 					</p>
-          <p>Please share links to images in the message field.</p>
+					<p>
+						<label>
+							Message<textarea name="message" rows="12"></textarea>
+						</label>
+					</p>
+          <p>Please share links to images in the message field or email images to <a href="mailto:catherine@catherinepollock.com">catherine@catherinepollock.com</a>. Please provide at least one image.</p>
           {/* <p>Images can be uploaded individually or together in a compressed file.</p>
 					<p>
 						<label>

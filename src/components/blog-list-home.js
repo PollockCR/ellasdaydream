@@ -1,12 +1,13 @@
 import React from "react"
 import { Link, StaticQuery, graphql } from "gatsby"
-import { RiArrowUpLine, RiArrowRightSLine } from "react-icons/ri"
+import { RiArrowRightSLine } from "react-icons/ri"
+import { GiDolphin } from "react-icons/gi"
 
 import PostCard from "./post-card"
 
 const PostMaker = ({ data }) => (
   <section className="home-posts">
-    <h2>Latest Posts <span class="icon -right"><RiArrowUpLine/></span></h2>
+    <h2><GiDolphin/> Posts</h2>
     <div className="grids col-1 sm-2 lg-3">
       {data}
     </div>
@@ -40,6 +41,7 @@ export default function BlogListHome() {
                       }
                     }
                   }
+                  relation
                 }
               }
             }

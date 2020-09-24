@@ -6,6 +6,7 @@ import {
 	RiArrowLeftLine,
 	RiArrowRightSLine,
 } from "react-icons/ri";
+import { GiJellyfish } from "react-icons/gi";
 
 import Layout from "../components/layout";
 import BlogListHome from "../components/blog-list-home";
@@ -75,8 +76,10 @@ const Post = ({ data, pageContext }) => {
 			<article className="blog-post">
 				<header className="featured-banner">
 					<section className="article-header">
-						<h1>{frontmatter.title}</h1>
-						<time>{frontmatter.date}</time>
+						<h1>
+							{frontmatter.title} <GiJellyfish />
+						</h1>
+						<p>{frontmatter.relation}</p>
 					</section>
 
 					{Image ? (
@@ -86,7 +89,7 @@ const Post = ({ data, pageContext }) => {
 							objectPosition="50% 50%"
 							alt={frontmatter.title + " - Featured image"}
 							className="featured-image"
-							style={{ maxHeight: "100vh", objectFit: "contain", }}
+							style={{ maxHeight: "100vh", objectFit: "contain" }}
 						/>
 					) : (
 						""
@@ -148,6 +151,7 @@ export const pageQuery = graphql`
 						}
 					}
 				}
+				relation
 				cta {
 					ctaText
 					ctaLink

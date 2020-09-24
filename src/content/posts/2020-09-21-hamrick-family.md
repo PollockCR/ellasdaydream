@@ -3,6 +3,7 @@ template: blog-post
 title: Ella's Family
 slug: /ellas-family
 date: 2020-09-21T00:00:00.000Z
+relation: Family
 description: A note from Ella's parents and sisters
 featuredImage: /assets/ella-hamrick.jpg
 cta:

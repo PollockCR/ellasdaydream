@@ -1,6 +1,7 @@
 import React from "react"
 import { Link , graphql } from "gatsby"
 import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
+import { GiDolphin } from "react-icons/gi"
 
 import Layout from "../components/layout"
 import PostCard from "../components/post-card"
@@ -29,7 +30,8 @@ export const blogListQuery = graphql`
                   ...GatsbyImageSharpFluidLimitPresentationSize
                 }
 							}
-						}
+            }
+            relation
           }
         }
       }
@@ -98,7 +100,7 @@ class BlogIndex extends React.Component {
           title={"Posts — Page " + currentPage + " of " + numPages}
           description={"Ella's Daydream posts page " + currentPage + " of " + numPages }
         />
-        <h1>Posts</h1>
+        <h1><GiDolphin/> Posts</h1>
         <div className="grids col-1 sm-2 lg-3">
           {posts}
         </div>
