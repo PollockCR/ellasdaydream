@@ -23,3 +23,4 @@ Please feel free to share memories and photos [here](https://www.facebook.com/ra
 
 ![Facebook comments 1](/assets/ellas-family-comments-1.png)
 ![Facebook comments 2](/assets/ellas-family-comments-2.png)
+![Facebook comments 3](/assets/ellas-family-comments-3.png)

@@ -89,7 +89,7 @@ const Contact = ({ data }) => {
 							Message<textarea name="message" rows="12"></textarea>
 						</label>
 					</p>
-          <p>Please share links to images in the message field or email images to <a href="mailto:catherine@catherinepollock.com">catherine@catherinepollock.com</a>. Please provide at least one image.</p>
+          <p>Please share links to images in the message field or email images to <a href="mailto:catherine@catherinepollock.com">catherine@catherinepollock.com</a>. Please provide at least one image; otherwise one will be selected for you.</p>
           {/* <p>Images can be uploaded individually or together in a compressed file.</p>
 					<p>
 						<label>
