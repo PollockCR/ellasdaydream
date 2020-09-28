@@ -28,3 +28,8 @@ a {
 		opacity: 0.8;
 	}
 }
+
+.gatsby-resp-image-image {
+	object-fit: contain;
+	border-radius: 12px;
+}

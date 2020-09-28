@@ -64,6 +64,13 @@ module.exports = {
             },
           },
         ],
+        // Available options and their defaults:
+        base64Width: 20, // default
+        forceBase64Format: `webp`, // valid formats: png,jpg,webp
+        useMozJpeg: process.env.GATSBY_JPEG_ENCODER === `MOZJPEG`,
+        stripMetadata: true,
+        defaultQuality: 70,
+        defaultFit: `CONTAIN`,
       },
     },
     `gatsby-plugin-sass`,

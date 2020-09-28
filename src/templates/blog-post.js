@@ -146,7 +146,7 @@ export const pageQuery = graphql`
 							...GatsbyImageSharpFluid
 							...GatsbyImageSharpFluidLimitPresentationSize
 						}
-						sizes {
+						resize(fit: CONTAIN) {
 							src
 						}
 					}
