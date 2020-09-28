@@ -30,7 +30,7 @@ Love to you all
 
 **Time:** Sep 28, 2020 04:00 PM Pacific Time (US and Canada)
 
-**Description:** hosted by Hawa at Fort Funston; starting around 4:30 pm
+**Description:** hosted by Hawa at Fort Funston; starting around 4 to 4:30 pm
 
 **Location:** [Zoom Meeting](https://us02web.zoom.us/j/86040719474?pwd=dmpzUi9lUUVPK1A1N3IwbkM5eUE3Zz09)
 
