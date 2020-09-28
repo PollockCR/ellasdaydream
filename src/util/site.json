@@ -5,7 +5,9 @@
     "description": "In loving memory of Ella Hamrick. To know Ella was to love her. We will never stop missing her, we will never forget her joy, and we will never stop loving her.",
     "siteUrl": "https://ellasdaydream.com",
     "image": "/assets/ella-hamrick.jpg",
-    "twitterUsername": "@ellasdaydream"
+    "twitterUsername": "@ellasdaydream",
+    "alert": "ocean views w our angel - today 4 pm pacific time",
+    "alertLink": "/ocean-views"
   },
   "ga": "UA-XXXXXXXXX-X"
 }

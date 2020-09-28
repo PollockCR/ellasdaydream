@@ -20,3 +20,17 @@ Hold your loved ones a little bit tighter and a little bit longer tonight.
 Please feel free to share memories and photos here"
 
 -- Rachel Moore Hamrick
+
+## Join Ocean Views w Our Angel
+
+The pacific ocean, flowers, and other things in space of meditation, prayer, and remembrance 🙏✨ 
+
+Love to you all 
+
+**Time:** Sep 28, 2020 04:00 PM Pacific Time (US and Canada)
+
+**Description:** hosted by Hawa at Fort Funston; starting around 4:30 pm
+
+**Location:** [Zoom Meeting](https://us02web.zoom.us/j/86040719474?pwd=dmpzUi9lUUVPK1A1N3IwbkM5eUE3Zz09)
+
+**More Information:** [Ocean Views Post](/ocean-views)
