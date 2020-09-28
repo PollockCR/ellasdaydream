@@ -23,7 +23,7 @@ export default function BlogListHome() {
           allMarkdownRemark(
             sort: { order: ASC, fields: [frontmatter___date] }
             filter: { frontmatter: { template: { eq: "blog-post" } } }
-            limit: 6
+            limit: 12
           ) {
             edges {
               node {

@@ -13,6 +13,7 @@ cta2:
   ctaText: On Facebook
   ctaLink: https://www.facebook.com/rachelhamrickphotography/posts/10223458266230013
 ---
+
 "Our beautiful Ella died unexpectedly this weekend. We have no words to describe this unimaginable loss. To know Ella was to love her. Being her mother and her father was privilege and a joy. Thank you to everyone who has ever been involved in her life in any way and loved her. We will never stop missing her, we will never forget her joy, and we will never stop loving her. Ever.
 
 Hold your loved ones a little bit tighter and a little bit longer tonight.
@@ -21,11 +22,11 @@ Please feel free to share memories and photos here"
 
 -- Rachel Moore Hamrick
 
-## Join Ocean Views w Our Angel
+## Join [Ocean Views w Our Angel](/ocean-views)
 
-The pacific ocean, flowers, and other things in space of meditation, prayer, and remembrance 🙏✨ 
+The pacific ocean, flowers, and other things in space of meditation, prayer, and remembrance 🙏✨
 
-Love to you all 
+Love to you all
 
 **Time:** Sep 28, 2020 04:00 PM Pacific Time (US and Canada)
 
@@ -33,4 +34,4 @@ Love to you all
 
 **Location:** [Zoom Meeting](https://us02web.zoom.us/j/86040719474?pwd=dmpzUi9lUUVPK1A1N3IwbkM5eUE3Zz09)
 
-**More Information:** [Ocean Views Post](/ocean-views)
+[**More Info**](/ocean-views)
