@@ -87,8 +87,9 @@ const Post = ({ data, pageContext }) => {
 							fluid={Image}
 							objectFit="contain"
 							objectPosition="50% 50%"
-							alt={frontmatter.title + " - Featured image"}
+							alt={frontmatter.featuredImageAlt}
 							className="featured-image"
+							showCaptions={true}
 							style={{ maxHeight: "100vh", objectFit: "contain" }}
 						/>
 					) : (
@@ -151,6 +152,7 @@ export const pageQuery = graphql`
 						}
 					}
 				}
+				featuredImageAlt
 				relation
 				cta {
 					ctaText
