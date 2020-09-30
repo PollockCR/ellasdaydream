@@ -3,6 +3,7 @@ import { RiSendPlane2Line } from "react-icons/ri";
 
 const Subscribe = () => (
 	<section className="footer-content mb-5p">
+    <h2>Email List</h2>
 		<form
 			className="contact-form"
 			action="/success"
