@@ -1,5 +1,5 @@
 import React from "react";
-import { useStaticQuery, graphql, Link } from "gatsby";
+import { useStaticQuery, graphql } from "gatsby";
 
 const Alert = ({ title, description, image, article }) => {
 	const { site } = useStaticQuery(query);
@@ -9,9 +9,9 @@ const Alert = ({ title, description, image, article }) => {
 	return (
 		<div className="alert-wrapper">
 			{alert ? (
-				<Link to={alertLink ? alertLink : `#`} className="alert-link">
+				<a href={alertLink ? alertLink : `#`} rel="noreferrer" target="_blank" className="alert-link">
 					<div className="alert">{alert}</div>
-				</Link>
+				</a>
 			) : null}
 		</div>
 	);
