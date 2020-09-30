@@ -7,7 +7,7 @@ const Subscribe = () => (
 		<form
 			className="contact-form"
 			action="/success"
-			name="contact"
+			name="subscribe"
 			method="POST"
 			data-netlify="true"
 			data-netlify-honeypot="bot-field"
