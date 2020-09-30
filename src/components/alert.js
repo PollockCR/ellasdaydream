@@ -7,9 +7,13 @@ const Alert = ({ title, description, image, article }) => {
 	const { alert, alertLink } = site.siteMetadata;
 
 	return (
-		<Link to={alertLink} className="alert-wrapper">
-			<div className="alert">{alert}</div>
-		</Link>
+		<div className="alert-wrapper">
+			{alert ? (
+				<Link to={alertLink ? alertLink : `#`} className="alert-link">
+					<div className="alert">{alert}</div>
+				</Link>
+			) : null}
+		</div>
 	);
 };
 

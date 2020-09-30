@@ -8,7 +8,7 @@ const Footer = () => (
 	<footer className="site-footer">
 		<div className="mb-5p position-relative site-footer-fb">
 			<div
-				class="fb-comments"
+				className="fb-comments"
 				data-href="https://ellasdaydream.com"
 				data-numposts="5"
 				data-width=""

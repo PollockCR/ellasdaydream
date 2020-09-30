@@ -10,8 +10,8 @@
 // }
 .primary-container main {
     min-height: calc(100vh - 60px - 81px);
-    
 }
+
 .main-wrapper {
     background-repeat: no-repeat;
     background-position: bottom center;
@@ -107,8 +107,8 @@
             overflow: hidden;
             margin-top: calc(-6rem - 5%);
             border-radius: 1rem;
-            box-shadow: 1rem 1rem 1rem rgba(0,0,0,0.3);
-            right: 0.5rem;            
+            box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.3);
+            right: 0.5rem;
         }
 
         ul li {
@@ -126,12 +126,16 @@
         }
     }
 }
+
 .alert-wrapper {
     position: absolute;
-    width: 160px;
-    min-height: 160px;
     bottom: -1rem;
     right: 1rem;
+}
+
+.alert-link {
+    width: 160px;
+    min-height: 160px;
     border-radius: 50%;
     padding: 2%;
     text-align: center;
@@ -139,6 +143,7 @@
     display: flex;
     align-items: center;
     color: var(--body);
+    transition: all 0.25s;
     background-color: var(--pink);
 
     @media (max-width: $breakpoint-sm) {
@@ -148,7 +153,7 @@
     &:hover {
         background-color: var(--yellow);
         color: var(--body);
-        transform: scale3d(1.05,1.05,1)
+        transform: scale3d(1.05, 1.05, 1);
     }
 }
 
@@ -190,7 +195,6 @@
                 top: 0.5rem;
             }
         }
-
     }
 
     @media (max-width: $breakpoint-lg) {
@@ -211,7 +215,9 @@
         @extend .font-secondary;
 
         color: var(--pink);
+
         // opacity: 0.5;
+   
     }
 
     .tagline {
@@ -229,7 +235,7 @@
 
     .featured-image {
         border-radius: 12px;
-        box-shadow: 1rem 1rem 1rem rgba(0,0,0,0.2);
+        box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.2);
     }
 
     @media (max-width: $breakpoint-md) {
@@ -377,6 +383,7 @@ article img {
         border-radius: 12px;
         margin-left: auto;
         margin-right: auto;
+
         img {
             object-fit: contain !important;
             border-radius: 12px;
@@ -497,10 +504,11 @@ article img {
     margin-top: -2px;
 
     .footer-content {
-        background-color: rgba(255,255,255,0.8);
+        background-color: rgba(255, 255, 255, 0.8);
         padding: 5%;
         border-radius: 12px;
         width: max-content;
+
         @media (max-width: $breakpoint-md) {
             width: unset;
         }
@@ -517,13 +525,14 @@ article img {
         align-items: flex-end;
         color: var(--pink-dark);
         text-transform: lowercase;
+
         &:hover {
             color: var(--pink);
         }
     }
 
     .site-footer-fb {
-        background-color: rgba(255,255,255,0.8);
+        background-color: rgba(255, 255, 255, 0.8);
         border-radius: 12px;
     }
 
@@ -537,8 +546,6 @@ article img {
             color: var(--catdog);
         }
     }
-
-
 }
 
 .pagination {
