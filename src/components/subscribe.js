@@ -13,7 +13,7 @@ const Subscribe = () => (
 			data-netlify-honeypot="bot-field"
 		>
 			<input type="hidden" name="form-name" value="subscribe" />
-			<p>Receive emails about upcoming events, art prints, and more.</p>
+			<p>Receive emails about upcoming events, art, and more.</p>
 			<p>
 				<input type="email" name="email" aria-label="email" placeholder="Email"/>
 			</p>
