@@ -51,7 +51,7 @@ const Contact = ({ data }) => {
 					<p>
 						<label>
 							Name *
-							<input type="text" name="name" required/>
+							<input type="text" name="name" required />
 						</label>
 					</p>
 					<p>
@@ -89,13 +89,27 @@ const Contact = ({ data }) => {
 							Message<textarea name="message" rows="12"></textarea>
 						</label>
 					</p>
-          <p>Please share links to images in the message field or email images to <a href="mailto:catherine@catherinepollock.com">catherine@catherinepollock.com</a>. Please provide at least one image; otherwise one will be selected for you.</p>
-          {/* <p>Images can be uploaded individually or together in a compressed file.</p>
+					<p>
+						Please share links to images in the message field or email images to{" "}
+						<a href="mailto:catherine@catherinepollock.com">
+							catherine@catherinepollock.com
+						</a>
+						. Please provide at least one image; otherwise one will be selected
+						for you.
+					</p>
+					<p>
+						Images can be uploaded individually or together in a compressed
+						file.
+					</p>
 					<p>
 						<label>
-							Image 1
-							<input alt="image upload" type="file" name="image1" />
+							Image
+							<input alt="image upload" type="file" name="image" />
 						</label>
+					</p>
+
+					{/*
+						<p>
 						<label>
 							Image 2<input alt="image upload" type="file" name="image2" />
 						</label>
