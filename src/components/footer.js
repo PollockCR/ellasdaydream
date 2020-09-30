@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import { RiHeart2Line } from "react-icons/ri";
+import { RiHeart2Line, RiTwitterLine } from "react-icons/ri";
 import { FaCat, FaDog } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io";
 
@@ -54,6 +54,15 @@ const Footer = () => (
 					rel="noreferrer"
 				>
 					<IoLogoInstagram /> @_ellayay
+				</a>
+			</p>
+			<p>
+				<a
+					href="https://twitter.com/ellasdaydream"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<RiTwitterLine /> @ellasdaydream
 				</a>
 			</p>
 			<p>
