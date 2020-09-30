@@ -3,9 +3,12 @@ import { Link } from "gatsby";
 import { RiHeart2Line, RiTwitterLine } from "react-icons/ri";
 import { FaCat, FaDog } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io";
+import Subscribe from "../components/subscribe"
 
 const Footer = () => (
 	<footer className="site-footer">
+		<Subscribe/>
+		
 		<div className="mb-5p position-relative site-footer-fb">
 			<div
 				className="fb-comments"
