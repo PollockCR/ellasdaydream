@@ -6,8 +6,8 @@
     "siteUrl": "https://ellasdaydream.com",
     "image": "/assets/ella-hamrick.jpg",
     "twitterUsername": "@ellasdaydream",
-    "alert": "celebration of life info",
-    "alertLink": "https://www.facebook.com/events/795322501203757/"
+    "alert": "",
+    "alertLink": ""
   },
   "ga": "UA-XXXXXXXXX-X"
 }

@@ -4,12 +4,9 @@ title: Celebration of Life
 slug: /celebration-of-life
 date: 2020-09-20T00:20:31.000Z
 relation: Gathering
-description: Ella's Celebration of Life information
+description: Ella's Celebration of Life
 featuredImage: /assets/ella-and-molly.jpg
 featuredImageAlt: Ella and Molly
-cta:
-  ctaText: RSVP on Facebook
-  ctaLink: https://www.facebook.com/events/795322501203757/
 ---
 ## Ella Hamrick's Celebration of Life
 
