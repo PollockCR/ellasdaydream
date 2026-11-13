@@ -7,7 +7,7 @@ import Subscribe from "../components/subscribe"
 
 const Footer = () => (
 	<footer className="site-footer">
-		<Subscribe/>
+		{/* <Subscribe/> */}
 		
 		<div className="mb-5p position-relative site-footer-fb">
 			<div
